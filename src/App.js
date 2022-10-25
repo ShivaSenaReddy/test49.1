@@ -20,9 +20,9 @@ function App() {
                     <li><Link to='/contact'>Contact</Link></li>
                 </ul>
                 <Routes>
-                    <Route path='https://shivasenareddy.github.io/test49.1/' element={<Home />}></Route>
-                    <Route path='https://shivasenareddy.github.io/test49.1/about' element={<About />}></Route>
-                    <Route path='https://shivasenareddy.github.io/test49.1/contact' element={<Contact />}></Route>
+                    <Route path='/' element={<Home />}></Route>
+                    <Route path='/about' element={<About />}></Route>
+                    <Route path='/contact' element={<Contact />}></Route>
                 </Routes>
             </div>
         </Router>
